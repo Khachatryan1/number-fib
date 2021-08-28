@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int i = 0, num_fib = 0, num2 = 1,num ;
+    cin >> num;
+    if (num < 0)
+        cout << "EROR";
+    else 
+    while (num--) { 
+        i = num_fib + num2;
+        num_fib = num2;
+        num2 = i;
+       cout << num_fib<<"\t";
+           
+    }
+    
+    return 0;
+}
